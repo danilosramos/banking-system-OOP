@@ -53,12 +53,12 @@ On Windows:
 banking-system.exe
 ```
 ## 🧩 Code Snippet Example
-Here is how the operator overloading simplifies the logic in main.cpp:
-// Instead of writing this:
-// acc1.Deposit(1000);
-// acc1.TransferAllTo(acc2);
+### Here is how the operator overloading simplifies the logic in main.cpp:
+Instead of writing this:
+`acc1.Deposit(1000);
+acc1.TransferAllTo(acc2);`
 
-// We can write this:
+We can write this:
 ```bash
 acc1 += 1000;  // Deposit
 acc1 >> acc2;  // Transfer everything to acc2
